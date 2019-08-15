@@ -1,0 +1,23 @@
+{
+  "name": "app-node-with-docker",
+  "version": "1.0.0",
+  "description": "Aplicación in NodeJs y desplegada en Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacs4210/app-node-with-docker.git"
+  },
+  "author": "Jairo Andres Cuartas Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacs4210/app-node-with-docker/issues"
+  },
+  "homepage": "https://github.com/jacs4210/app-node-with-docker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
